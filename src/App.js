@@ -39,7 +39,7 @@ const App = () => {
         const validData = JSON.parse(jsonInput);
 
         try {
-            const res = await axios.post('https://your-backend-url.herokuapp.com/bfhl', { data: validData });
+            const res = await axios.post('https://bajajbackend-d3d430e98905.herokuapp.com/bfhl', { data: validData });
             setResponse(res.data);
         } catch (error) {
             setError('Failed to fetch data. Please try again.');
@@ -74,7 +74,7 @@ const App = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Fullstack Challenge</h1>
+                <h1>Bajaj Fullstack Challenge</h1>
             </header>
             <main>
                 <form onSubmit={handleSubmit} className="form">
