@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.form {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.textarea.invalid {
+  border-color: red;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #21a1f1;
+}
+
+.response {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.select {
+  margin-bottom: 20px;
+}
